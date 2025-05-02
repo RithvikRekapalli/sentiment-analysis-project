@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis for IMDb Reviews</h1>
+        <form method="POST">
+            <textarea name="text" rows="4" cols="50" placeholder="Enter review text here..."></textarea><br><br>
+            <input type="submit" value="Analyze Sentiment">
+        </form>
+        
+        {% if prediction %}
+            <p>Predicted Sentiment: {{ prediction }} {{ emoji }}</p>
+        {% else %}
+            <p>Awaiting text input for analysis.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

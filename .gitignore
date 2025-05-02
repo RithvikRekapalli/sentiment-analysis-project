@@ -1,0 +1,62 @@
+# -----------------------------------
+# Python & Virtual Environments
+# -----------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.so
+.env
+.venv/
+venv/
+sentiment_env/
+
+# -----------------------------------
+# Model Checkpoints & Outputs
+# -----------------------------------
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+
+# Hugging Face cache (optional)
+~/.cache/huggingface/
+
+# Training results
+/results/
+*.log
+*.h5
+*.pb
+
+# -----------------------------------
+# Jupyter & VSCode
+# -----------------------------------
+.ipynb_checkpoints/
+.vscode/
+*.ipynb
+
+# -----------------------------------
+# Mac & System Files
+# -----------------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------------
+# Web App & Flask (optional extras)
+# -----------------------------------
+instance/
+*.db
+*.sqlite3
+*.pyc
+*.pyo
+
+# -----------------------------------
+# Other data and temp files
+# -----------------------------------
+*.csv
+*.tsv
+*.tmp
+*.bak
