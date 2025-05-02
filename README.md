@@ -9,17 +9,6 @@ Built with Python, Hugging Face Transformers, and deployed with Flask for real-t
 
 ---
 
-## 📌 Table of Contents
-- [Overview](#overview)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
-- [Results](#results)
-- [Web App Demo](#web-app-demo)
-- [License](#license)
-
----
-
 ## 🧠 Overview
 
 Sentiment analysis is the task of classifying the polarity (positive or negative) of text data.  
