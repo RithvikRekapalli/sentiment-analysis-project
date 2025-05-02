@@ -1,6 +1,23 @@
-transformers
-torch
-pandas
-numpy
-scikit-learn
-flask
+# Core Python Libraries
+numpy==1.26.4
+pandas==2.2.2
+
+# Machine Learning & Transformers
+scikit-learn==1.4.2
+transformers==4.39.3
+datasets==2.19.1
+torch==2.2.2
+
+# Web Framework
+Flask==3.0.2
+
+# Evaluation & Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Utility
+tokenizers==0.15.2
+tqdm==4.66.2
+
+# Optional: Needed for tokenizer saving/loading from Hugging Face
+huggingface-hub==0.23.1
